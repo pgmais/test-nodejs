@@ -109,7 +109,7 @@ O usuário poderá fazer a atualização dos clientes já cadastrados na aplica�
 
 ## Requisitos do Projeto:
 
-* Fornecer os códigos fonte para avaliação.
+* Fornecer os códigos fonte para avaliação enviando o link do seu github, gitlab ou bitbucket.
 * O desenvolvimento deve ser escrito utilizando ECMAScript com Nodejs
 * Nodejs
     * Use Nodejs >= 8.
