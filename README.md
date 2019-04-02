@@ -83,8 +83,8 @@ Outra operação de remoção que pode ser efetuada, é a de remoção de um usu
 
 ```json
 {
-    "_id": 007
-    "date_sent": "2019-10-11 13:30:20"
+    "_id": 007,
+    "date_sent": "2019-10-11 13:30:20",
     "name": "James Bond",
     "status": "deleted"
 }
@@ -98,8 +98,8 @@ O usuário poderá fazer a atualização dos clientes já cadastrados na aplica�
 
 ```json
 {
-    "_id": 007
-    "date_sent": "2019-10-11 13:30:20"
+    "_id": 007,
+    "date_sent": "2019-10-11 13:30:20",
     "name": "James Bond",
     "status": "update_info"
 }
@@ -114,7 +114,7 @@ O usuário poderá fazer a atualização dos clientes já cadastrados na aplica�
 * Nodejs
     * Use Nodejs >= 8.
     * Utilize ExpressJS para estrutura da API.
-    * Utilize qualquer outro pacote ou lib para codificação, exemplo: [Lodash](https://lodash.com/),  [Ramda](https://ramdajs.com/) etc.
+    * Utilize qualquer outro pacote ou lib para codificação, exemplo: [Lodash](https://lodash.com/), [Ramda](https://ramdajs.com/) etc.
 * Escreva a documentação do projeto contendo:
     * Descrição;
     * Instruções de como instalar e testar;
@@ -129,4 +129,5 @@ O usuário poderá fazer a atualização dos clientes já cadastrados na aplica�
 * Siga as boas práticas de API REST;
 * Desenvolva testes unitários;
 * Utilize boas práticas de programação [(clean code)](https://de.wikipedia.org/wiki/Clean_Code);
+* Fique livre para usar soluções de logs[(Elasticsearch)](https://www.elastic.co/pt/), cache[(Redis)](https://redis.io/) e fila[(Rabbitmq)](https://www.rabbitmq.com/).
 * Utilize boas práticas do git <span style="color:red">**(Nada de dar commits na master!!!)**</span>.
