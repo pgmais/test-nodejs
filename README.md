@@ -130,4 +130,4 @@ O usuário poderá fazer a atualização dos clientes já cadastrados na aplica�
 * Desenvolva testes unitários;
 * Utilize boas práticas de programação [(clean code)](https://de.wikipedia.org/wiki/Clean_Code);
 * Fique livre para usar soluções de logs[(Elasticsearch)](https://www.elastic.co/pt/), cache[(Redis)](https://redis.io/) e fila[(Rabbitmq)](https://www.rabbitmq.com/).
-* Utilize boas práticas do git <span style="color:red">**(Nada de dar commits na master!!!)**</span>.
+* Utilize boas práticas do git.
