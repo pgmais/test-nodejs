@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+		<title>Projeto</title>
+		<link rel="stylesheet" href="../../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../css/jquery.fileupload.css">
+		<link rel="stylesheet" href="../../css/font-awesome.css">
+	  	<link rel="stylesheet" href="../../css/AdminLTE.min.css">
+	  	<link rel="stylesheet" href="../../css/skin-black.min.css">
+	  	<link rel="stylesheet" href="../../css/loader.css">
+  		<style>
+  			.dt-buttons{
+  				margin-bottom: 10px!important;
+				margin-left: -2px!important;
+				float: none!important; 
+  			}
+  			.display{
+  				white-space: nowrap;
+  			}
+  			.dataTables_processing {
+				z-index: 1000;
+			}
+			.user-panel>.info{
+				position: static!important;
+			}
+			.skin-black .main-header .navbar, 
+			.skin-black .main-header .navbar>.sidebar-toggle:hover {
+				background-color: #e4e7e6!important;
+			}
+			.main-header .logo{
+				background-color: #d7dada!important
+			}
+  		</style>
+
+  		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body class="hold-transition skin-black sidebar-mini">
+
+		<div class="wrapper">
+
+			<header class="main-header">
+				<a href="/js/home/index.html" class="logo">
+				  	<span class="logo-mini"><b>Projeto</b></span>
+						<span class="logo-lg">
+						<b>Projeto</b>
+				  	</span>
+				</a>
+				<nav class="navbar navbar-static-top">
+					<a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+			        	<span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+			      	</a>
+
+					<div class="navbar-custom-menu">
+						<ul class="nav navbar-nav">
+
+							
+						</ul>
+					</div>
+				</nav>
+			</header>
+
+  			<aside class="main-sidebar">
+
+    			<section class="sidebar">
+		      		<div class="user-panel">
+				        <div class="pull-left image">
+				          	<img src="../../img/user-160x160.png" class="img-circle" alt="User Image">
+				        </div>
+				        <div class="pull-left text-center info">
+				          	<p id="user-info"></p>
+				          	<p id="user-info-cluster" ></p>
+				          	<p id="user-info-diretoria" ></p>
+				        </div>
+			      	</div>
+			      	<ul class="sidebar-menu" data-widget="tree">
+				        <li class="header">NAVEGAÇÃO PRINCIPAL</li>
+				    </ul>
+    			</section>
+  			</aside>
+			
+			<div class="content-wrapper">
+				<section class="content">
+		    		<div class="row">
+		    			<main class="col-md-12">
+
+							<div class="row">
+								<div class="content-header" style="margin-bottom:15px;">
+									<h1>
+										CARGA DE ARQUIVO
+									</h1>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-md-4">
+									<div class="box">
+									    <div class="box-body">
+
+									    	<div class="panel panel-default text-center">
+										  		<div class="panel-heading ">
+										  			Upload : 
+										  		</div>
+										  		<div class="panel-body">
+										  			<span class="btn btn-success fileinput-button">
+												        <i class="glyphicon glyphicon-plus"></i>
+												        <span>Selecione o arquivo...</span>
+												        <input id="fileupload" type="file" name="client">
+												    </span>
+											  	</div>
+											</div>
+									    </div>
+									</div>
+								</div>
+							</div>
+
+						</main>
+		    		</div>
+		    		<div class="row">
+		    			<div class="col-md-12 text-center">
+		    				<br><br><br><br><br>
+		      				<span>Sistema Desenvolvido e Homologado em Google Chrome e Firefox</span>
+		      			</div>
+		    		</div>
+		    	</section>
+			</div>
+		</div>
+
+		<div id="loader">
+		    <img src="../img/pre-loader.gif" class="ajax-loader"/>
+		</div>
+
+		<!-- Bootstrap/Jquery -->
+		<script src="js/lib/jquery.min.js"></script>
+		<script src="js/lib/jquery.ui.widget.js"></script>
+		<script src="js/lib/jquery.iframe-transport.js"></script>
+		<script src="js/lib/jquery.fileupload.js"></script>
+		<script src="js/lib/jquery.fileupload-process.js"></script>
+		<script src="js/lib/jquery.fileupload-validate.js"></script>
+		<script src="js/lib/jquery.fileDownload.js"></script>
+		<script src="js/lib/bootstrap.min.js"></script>
+		<script src="js/lib/adminlte.min.js"></script>
+
+		<script src="./index.js"></script>
+
+	</body>
+</html>
